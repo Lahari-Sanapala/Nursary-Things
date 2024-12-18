@@ -36,9 +36,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
   });
 
 
-
-
-
 // Define the cursor and follower elements
 var cursor = $(".cursor"),
     follower = $(".cursor-follower");

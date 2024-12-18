@@ -299,23 +299,17 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 }
 
-
-
-
-
-
-
-
 /* Black cursor */
 .cursor {
   width: 9px;  /* Black cursor size */
   height: 9px;
   background-color: black;
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
   pointer-events: none;
   z-index: 1000;
   transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 /* Grey follower */
@@ -324,9 +318,10 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   height: 15px;
   background-color: rgba(128, 128, 128, 0.5); /* Light grey color with transparency */
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
   pointer-events: none;
   z-index: 999;
   transform: translate(-50%, -50%);
+  transition: transform 0.2s ease;
 }
 
