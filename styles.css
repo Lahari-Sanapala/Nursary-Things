@@ -1,14 +1,14 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg'); */
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;                            
   padding: 0; 
-  background-color: #053e46;
+  /* background-color: #053e46; */
   
 }
 
@@ -303,7 +303,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 .cursor {
   width: 9px;  /* Black cursor size */
   height: 9px;
-  background-color: black;
+  background-color: #42d49c;
   border-radius: 50%;
   position: absolute;
   pointer-events: none;
@@ -316,7 +316,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 .cursor-follower {
   width: 15px;  /* Slightly larger than black cursor */
   height: 15px;
-  background-color: rgba(128, 128, 128, 0.5); /* Light grey color with transparency */
+  background-color: #c1e4c6; /* Light grey color with transparency */
   border-radius: 50%;
   position: absolute;
   pointer-events: none;
